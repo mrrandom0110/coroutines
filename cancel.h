@@ -56,7 +56,7 @@ public:
 		auto initial_suspend() noexcept
 		{
 			return std::suspend_always();
-		}//YANDEX DATA BASE check
+		}
 
 		auto final_suspend() noexcept
 		{
