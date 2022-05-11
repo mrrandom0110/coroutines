@@ -20,7 +20,8 @@ public:
 		rhs.coro_ = nullptr;
 	}
 
-	task& operator=(task&& rhs) noexcept {
+	task& operator=(task&& rhs) noexcept
+	{
 		if (&rhs == this)
 			return *this;
 		coro_ = rhs.coro_;
