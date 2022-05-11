@@ -1,6 +1,4 @@
-//
-// Created by raze on 11.05.22.
-//
+
 
 #include <iostream>
 #include "task.h"
